@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="473.0" prefWidth="354.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.mta.libraryproject.Controllers.ProfileViewController">
+   <children>
+      <HBox layoutX="111.0" layoutY="130.0" spacing="30.0" />
+      <ImageView fitHeight="37.0" fitWidth="69.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#pressedBackBtn" onTouchPressed="#pressedBackBtn" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../java/ro/mta/libraryproject/Images/user.png" />
+         </image>
+      </ImageView>
+      <VBox alignment="CENTER" layoutX="90.0" layoutY="65.0" spacing="10.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0">
+         <children>
+            <Label text="Profile">
+               <font>
+                  <Font name="Arial" size="27.0" />
+               </font>
+            </Label>
+            <TextField fx:id="firstnameField" promptText="Firstname" />
+            <TextField fx:id="lastnameField" promptText="Lastname" />
+            <TextField fx:id="emailField" promptText="Email" />
+            <TextField fx:id="phoneField" promptText="Phone number" />
+            <TextField fx:id="addressField" promptText="Address" />
+            <DatePicker fx:id="dateField" promptText="Birthday" />
+            <TextField fx:id="usernameField" promptText="Username" />
+            <PasswordField fx:id="passwordField" promptText="Password" />
+            <Button mnemonicParsing="false" onMouseClicked="#pressedChangeBtn" onTouchPressed="#pressedChangeBtn" prefHeight="25.0" prefWidth="140.0" style="-fx-background-color: #7fabbc;" text="Update" />
+            <Button layoutX="52.0" layoutY="332.0" mnemonicParsing="false" onMouseClicked="#pressedRestoreBtn" onTouchPressed="#pressedRestoreBtn" prefHeight="25.0" prefWidth="140.0" style="-fx-background-color: #7fabbc;" text="Restore defaults" />
+         </children>
+      </VBox>
+      <Label fx:id="errorLabel" alignment="CENTER" textFill="RED" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+
+   </children>
+</AnchorPane>

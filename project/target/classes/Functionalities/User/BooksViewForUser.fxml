@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="492.0" prefWidth="1052.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.mta.libraryproject.Controllers.BooksViewForUserController">
+    <children>
+        <HBox layoutX="61.0" layoutY="74.0" prefHeight="356.0" prefWidth="938.0" spacing="100.0">
+            <children>
+                <VBox prefHeight="356.0" prefWidth="267.0" spacing="10.0">
+                    <children>
+                        <TextField promptText="ISBN" />
+                        <TextField promptText="Title" />
+                        <TextField promptText="Status" />
+                        <TextField promptText="Author" />
+                        <TextField promptText="Genre" />
+                        <TextField promptText="NumberOfBooks" />
+                        <TextField promptText="NumberOfPages" />
+                        <TextField promptText="ShelfID" />
+                        <TextField prefHeight="29.0" prefWidth="254.0" promptText="BookID" />
+                        <HBox prefHeight="25.0" prefWidth="197.0" spacing="10.0">
+                            <children>
+                                <Button mnemonicParsing="false" prefHeight="25.0" onMouseClicked="#pressedBorrowBtn" onTouchPressed="#pressedBorrowBtn" prefWidth="91.0" style="-fx-background-color: #7fabbc;" text="Borrow" />
+                                <Button mnemonicParsing="false" prefHeight="25.0" onMouseClicked="#pressedReserveBtn" onTouchPressed="#pressedReserveBtn" prefWidth="90.0" style="-fx-background-color: #7fabbc;" text="Reserve" />
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+                <TableView prefHeight="356.0" prefWidth="560.0">
+                    <columns>
+                        <TableColumn prefWidth="75.0" text="C1" />
+                        <TableColumn prefWidth="75.0" text="C2" />
+                    </columns>
+                </TableView>
+            </children>
+        </HBox>
+        <Label layoutX="488.0" layoutY="24.0" text="Books">
+            <font>
+                <Font name="Arial" size="27.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="37.0" fitWidth="69.0" onMouseClicked="#pressedBackBtn" onTouchPressed="#pressedBackBtn" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../java/ro/mta/libraryproject/Images/book.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

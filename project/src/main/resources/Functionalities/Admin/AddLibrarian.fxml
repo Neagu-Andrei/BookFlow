@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="473.0" prefWidth="354.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.mta.libraryproject.Controllers.AddLibrarianController">
+    <children>
+        <HBox layoutX="111.0" layoutY="130.0" spacing="30.0" />
+        <Label layoutX="101.0" layoutY="67.0" text="Add librarian">
+            <font>
+                <Font name="Arial" size="27.0" />
+            </font>
+        </Label>
+        <ImageView onMouseClicked="#pressedBackBtn" onTouchPressed="#pressedBackBtn" fitHeight="37.0" fitWidth="69.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../java/ro/mta/libraryproject/Images/librarian.png" />
+            </image>
+        </ImageView>
+        <VBox layoutX="90.0" layoutY="130.0" spacing="10.0">
+            <children>
+                <TextField fx:id="firstnameField" promptText="Firstname" />
+                <TextField fx:id="lastnameField" promptText="Lastname" />
+                <TextField fx:id="addressField" promptText="Address" />
+                <TextField fx:id="phoneField" promptText="Phone" />
+                <TextField fx:id="emailField" promptText="Email" />
+                <DatePicker fx:id="dateField" promptText="Birthday" />
+                <TextField fx:id="usernameField" promptText="Username" />
+                <PasswordField fx:id="passwordField" promptText="Password" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

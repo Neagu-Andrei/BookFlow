@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="492.0" prefWidth="1052.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.mta.libraryproject.Controllers.BooksViewForLibrarianController">
+    <children>
+        <HBox layoutX="61.0" layoutY="74.0" prefHeight="356.0" prefWidth="938.0" spacing="100.0">
+            <children>
+                <VBox prefHeight="234.0" prefWidth="260.0" spacing="10.0">
+                    <children>
+                        <TextField fx:id="ISBNField" promptText="ISBN"/>
+                        <TextField fx:id="titleField" promptText="Title" />
+                        <TextField fx:id="statusField" promptText="Status" />
+                        <TextField fx:id="authorField" promptText="Author" />
+                        <TextField fx:id="genreField" promptText="Genre" />
+                        <TextField fx:id="NumberOfBooksField" promptText="NumberOfBooks" />
+                        <TextField fx:id="NumberOfPagesField" promptText="NumberOfPages" />
+                        <TextField fx:id="ShelfIDField" promptText="ShelfID" />
+                  <HBox spacing="10.0">
+                     <children>
+                              <Button onMouseClicked="#pressedDeleteBtn" onTouchPressed="#pressedDeleteBtn" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: #7fabbc;" text="Delete" />
+                              <Button onMouseClicked="#pressedAddBtn" onTouchPressed="#pressedAddBtn" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" style="-fx-background-color: #7fabbc;" text="Add" />
+                              <Button onMouseClicked="#pressedEditBtn" onTouchPressed="#pressedEditBtn" mnemonicParsing="false" prefHeight="25.0" prefWidth="87.0" style="-fx-background-color: #7fabbc;" text="Edit" />
+                     </children>
+                  </HBox>
+                    </children>
+                </VBox>
+                <TableView prefHeight="305.0" prefWidth="578.0" fx:id="table">
+                    <columns>
+                        <TableColumn fx:id="col_ID" prefWidth="52.0" text="ID" />
+                        <TableColumn fx:id="col_ISBN" prefWidth="52.0" text="ISBN" />
+                        <TableColumn fx:id="col_title" prefWidth="73.39999389648438" text="Title" />
+                        <TableColumn fx:id="col_authors" prefWidth="71.20001220703125" text="Authors" />
+                        <TableColumn fx:id="col_genre" prefWidth="60.20001220703125" text="Genre" />
+                        <TableColumn fx:id="col_status" prefWidth="54.79998779296875" text="Status" />
+                        <TableColumn fx:id="col_pages" prefWidth="62.0" text="Pages" />
+                        <TableColumn fx:id="col_books" prefWidth="46.0" text="Books" />
+                        <TableColumn fx:id="col_shelf" prefWidth="39.0" text="Shelf" />
+                        <TableColumn fx:id="col_section" prefWidth="59.20001220703125" text="Section" />
+                    </columns>
+                </TableView>
+            </children>
+        </HBox>
+        <Label layoutX="488.0" layoutY="24.0" text="Books">
+            <font>
+                <Font name="Arial" size="27.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="37.0" fitWidth="69.0" onMouseClicked="#pressedBackBtn" onTouchPressed="#pressedBackBtn" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../java/ro/mta/libraryproject/Images/book.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

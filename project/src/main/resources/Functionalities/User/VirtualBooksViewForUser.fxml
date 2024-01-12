@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="458.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.mta.libraryproject.Controllers.VirtualBooksViewForUserController">
+    <children>
+          <TableView layoutX="51.0" layoutY="86.0" prefHeight="305.0" prefWidth="578.0" fx:id="table">
+              <columns>
+                  <TableColumn fx:id="col_ID" prefWidth="35.0" text="ID" />
+                  <TableColumn fx:id="col_ISBN" prefWidth="222.0" text="ISBN" />
+                  <TableColumn fx:id="col_title" prefWidth="90.0" text="Title" />
+                  <TableColumn fx:id="col_authors" prefWidth="120.0" text="Authors" />
+                  <TableColumn fx:id="col_genre" prefWidth="57.0" text="Genre" />
+                  <TableColumn fx:id="col_pages" prefWidth="55.0" text="Pages" />
+              </columns>
+          </TableView>
+        <Label layoutX="258.0" layoutY="35.0" text="Virtual Books">
+            <font>
+                <Font name="Arial" size="27.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="37.0" fitWidth="69.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#pressedBackBtn" onTouchPressed="#pressedBackBtn" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../java/ro/mta/libraryproject/Images/e-learning.png" />
+            </image>
+        </ImageView>
+              <Button layoutX="292.0" layoutY="407.0" mnemonicParsing="false" onMouseClicked="#pressedBuyBtn" onTouchPressed="#pressedBuyBtn" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: #7fabbc;" text="Buy" />
+    </children>
+</AnchorPane>

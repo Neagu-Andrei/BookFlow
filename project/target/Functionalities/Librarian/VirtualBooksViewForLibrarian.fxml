@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="492.0" prefWidth="1052.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.mta.libraryproject.Controllers.VirtualBooksViewForLibrarianController">
+    <children>
+        <HBox layoutX="82.0" layoutY="68.0" prefHeight="356.0" prefWidth="889.0" spacing="50.0">
+            <children>
+                <VBox prefHeight="234.0" prefWidth="260.0" spacing="10.0">
+                    <children>
+                        <TextField fx:id="newId" promptText="Id" />
+                        <TextField fx:id="newIsbn" promptText="ISBN" />
+                        <TextField fx:id="newTitle" promptText="Title" />
+                        <TextField fx:id="newAuthor" promptText="Author" />
+                        <TextField fx:id="newGenre" promptText="Genre" />
+                        <TextField fx:id="newNumberOfPages" promptText="NumberOfPages" />
+                        <HBox spacing="10.0">
+                            <children>
+                                <Button mnemonicParsing="false" onMouseClicked="#pressedDeleteBtn" onTouchPressed="#pressedDeleteBtn" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: #7fabbc;" text="Delete" />
+                                <Button mnemonicParsing="false" onMouseClicked="#pressedAddBtn" onTouchPressed="#pressedAddBtn" prefHeight="25.0" prefWidth="90.0" style="-fx-background-color: #7fabbc;" text="Add" />
+                                <Button mnemonicParsing="false" onMouseClicked="#pressedEditBtn" onTouchPressed="#pressedEditBtn" prefHeight="25.0" prefWidth="87.0" style="-fx-background-color: #7fabbc;" text="Edit" />
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+                <TableView fx:id="table" onMouseClicked="#setOnMouseClicked" prefHeight="305.0" prefWidth="578.0">
+                    <columns>
+                        <TableColumn fx:id="col_ID" prefWidth="25.0" text="ID" />
+                        <TableColumn fx:id="col_ISBN" prefWidth="102.0" text="ISBN" />
+                        <TableColumn fx:id="col_title" prefWidth="90.0" text="Title" />
+                        <TableColumn fx:id="col_authors" prefWidth="120.0" text="Authors" />
+                        <TableColumn fx:id="col_genre" prefWidth="47.0" text="Genre" />
+                        <TableColumn fx:id="col_pages" prefWidth="45.0" text="Pages" />
+                        <TableColumn fx:id="col_key" prefWidth="110.0" text="Key" />
+                    </columns>
+                </TableView>
+            </children>
+        </HBox>
+        <Label layoutX="446.0" layoutY="26.0" text="Virtual Books">
+            <font>
+                <Font name="Arial" size="27.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="37.0" fitWidth="69.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#pressedBackBtn" onTouchPressed="#pressedBackBtn" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../java/ro/mta/libraryproject/Images/e-learning.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

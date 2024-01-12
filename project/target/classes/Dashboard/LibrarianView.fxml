@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="380.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.mta.libraryproject.Controllers.LibrarianViewController">
+   <children>
+      <VBox layoutX="228.0" layoutY="83.0" prefHeight="270.0" prefWidth="145.0" spacing="10.0">
+         <children>
+            <Button mnemonicParsing="false" onMouseClicked="#pressedProfileBtn" prefHeight="25.0" prefWidth="167.0" style="-fx-background-color: #7fabbc;" text="Profile" />
+            <Button mnemonicParsing="false" onMouseClicked="#pressedViewBooksBtn" prefHeight="25.0" prefWidth="167.0" style="-fx-background-color: #7fabbc;" text="View books" />
+            <Button mnemonicParsing="false" onMouseClicked="#pressedViewBorrowedBooksBtn" prefHeight="25.0" prefWidth="143.0" style="-fx-background-color: #7fabbc;" text="View borrowed books" />
+            <Button mnemonicParsing="false" onMouseClicked="#pressedViewArchivesBtn" prefHeight="25.0" prefWidth="167.0" style="-fx-background-color: #7fabbc;" text="View archives" />
+            <Button mnemonicParsing="false" onMouseClicked="#pressedViewRequestsBtn" prefHeight="25.0" prefWidth="194.0" style="-fx-background-color: #7fabbc;" text="View requests" />
+            <Button mnemonicParsing="false" onMouseClicked="#pressedViewUsersBtn" prefHeight="25.0" prefWidth="194.0" style="-fx-background-color: #7fabbc;" text="View users" />
+            <Button mnemonicParsing="false" onMouseClicked="#pressedViewVirtualBooksBtn" prefHeight="25.0" prefWidth="198.0" style="-fx-background-color: #7fabbc;" text="View virtual books" />
+            <Button mnemonicParsing="false" onMouseClicked="#pressedLogoutBtn" prefHeight="25.0" prefWidth="198.0" style="-fx-background-color: #7fabbc;" text="Logout" />
+         </children>
+      </VBox>
+      <Label layoutX="254.0" layoutY="33.0" text="Options">
+         <font>
+            <Font name="Arial" size="27.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="37.0" fitWidth="69.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../java/ro/mta/libraryproject/Images/library.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

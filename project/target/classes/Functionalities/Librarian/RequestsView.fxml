@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="492.0" prefWidth="792.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.mta.libraryproject.Controllers.RequestViewController">
+    <children>
+      <TabPane fx:id="tabPane" layoutX="76.0" layoutY="146.0" prefHeight="349.0" prefWidth="790.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="70.0">
+        <tabs>
+          <Tab text="Books">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                            <TableView fx:id="reqBookTable" prefHeight="305.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <columns>
+                                    <TableColumn fx:id="usernameCol" prefWidth="154.0" text="Username" />
+                                    <TableColumn fx:id="titleCol" prefWidth="292.0" text="Title" />
+                              <TableColumn fx:id="authorCol" prefWidth="205.0" text="Author" />
+                              <TableColumn fx:id="dateCol" prefWidth="138.0" text="Date" />
+                                </columns>
+                            </TableView>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Archive">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="reqArchiveTable" prefHeight="305.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <columns>
+                              <TableColumn fx:id="usernameCol1" prefWidth="154.0" text="Username" />
+                              <TableColumn fx:id="titleCol1" prefWidth="292.0" text="Title" />
+                              <TableColumn fx:id="authorCol1" prefWidth="205.0" text="Author" />
+                              <TableColumn fx:id="dateCol1" prefWidth="138.0" text="Date" />
+                           </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+        <Label layoutX="339.0" layoutY="35.0" text="Requests" AnchorPane.leftAnchor="339.0" AnchorPane.rightAnchor="338.0">
+            <font>
+                <Font name="Arial" size="27.0" />
+            </font>
+        </Label>
+        <Button fx:id="acceptBtn" layoutX="287.0" layoutY="443.0" mnemonicParsing="false" onMouseClicked="#pressedAcceptBtn" onTouchPressed="#pressedAcceptBtn" prefHeight="25.0" prefWidth="104.0" style="-fx-background-color: #7fabbc;" text="Accept" AnchorPane.bottomAnchor="24.0" />
+        <Button fx:id="declineBtn" layoutX="402.0" layoutY="443.0" mnemonicParsing="false" onMouseClicked="#pressedDeclineBtn" onTouchPressed="#pressedDeclineBtn" prefHeight="25.0" prefWidth="104.0" style="-fx-background-color: #7fabbc;" text="Decline" AnchorPane.bottomAnchor="24.0" />
+        <ImageView fitHeight="37.0" fitWidth="69.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#pressedBackBtn" onTouchPressed="#pressedBackBtn" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../java/ro/mta/libraryproject/Images/help.png" />
+            </image>
+        </ImageView>
+      <Label fx:id="errorLabel" layoutX="397.0" layoutY="470.0" prefHeight="17.0" prefWidth="0.0" textFill="RED" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+    </children>
+</AnchorPane>

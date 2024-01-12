@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="473.0" prefWidth="853.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.mta.libraryproject.Controllers.UsersViewController">
+   <children>
+      <HBox layoutX="43.0" layoutY="89.0" prefHeight="352.0" prefWidth="781.0">
+         <children>
+            <HBox prefHeight="352.0" prefWidth="194.0" spacing="30.0">
+               <children>
+                  <VBox prefHeight="352.0" prefWidth="268.0" spacing="10.0">
+                     <children>
+                        <TextField promptText="Firstname" fx:id="pt_firstname"/>
+                        <TextField promptText="Lastname" fx:id="pt_lastname"/>
+                        <TextField promptText="Email" fx:id="pt_email"/>
+                        <TextField promptText="Phone number" fx:id="pt_phone"/>
+                        <TextField promptText="Address" fx:id="pt_address"/>
+                        <DatePicker prefHeight="26.0" prefWidth="417.0" promptText="Birthday" fx:id="pt_birthdate"/>
+                        <TextField promptText="Username" fx:id="pt_username"/>
+                        <HBox prefHeight="26.0" prefWidth="152.0" spacing="10.0">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="Search" onMouseClicked="#search"/>
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="96.0" text="See all users" onMouseClicked="#seeAllUsers" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox spacing="10.0" />
+               </children>
+            </HBox>
+            <TableView prefHeight="352.0" prefWidth="590.0" fx:id="table">
+              <columns>
+                <TableColumn prefWidth="30.0" text="ID" fx:id="ID"/>
+                <TableColumn prefWidth="81.0" text="First Name" fx:id="firstname"/>
+                  <TableColumn prefWidth="70.0" text="Last Name" fx:id="lastname"/>
+                  <TableColumn prefWidth="68.0" text="Birth Date" fx:id="birthdate"/>
+                  <TableColumn prefWidth="119.0" text="Address" fx:id="address"/>
+                  <TableColumn minWidth="0.0" prefWidth="56.0" text="Phone" fx:id="phone"/>
+                  <TableColumn prefWidth="71.0" text="E-mail" fx:id="email"/>
+                  <TableColumn prefWidth="93.0" text="Username" fx:id="username"/>
+              </columns>
+            </TableView>
+         </children>
+      </HBox>
+      <Label layoutX="391.0" layoutY="36.0" text="Users">
+         <font>
+            <Font name="Arial" size="27.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="37.0" fitWidth="69.0" onMouseClicked="#pressedBackBtn" onTouchPressed="#pressedBackBtn" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../java/ro/mta/libraryproject/Images/group.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
