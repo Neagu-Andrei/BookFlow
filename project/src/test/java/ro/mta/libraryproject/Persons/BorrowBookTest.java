@@ -12,7 +12,7 @@ public class BorrowBookTest {
         LocalDate date = LocalDate.of(2021, 1, 8);
         ArrayList<String> authors = new ArrayList<>();
         authors.add("Rodica");
-        RegisteredUser registeredUser = new RegisteredUser("Alexandru Alexandru", "1234");
+        RegisteredUser registeredUser = new RegisteredUser(" ", "1234");
         Book book = new Book("12423", "test", " FFG", authors, "test", 399, 1, 12, 300);
         registeredUser.reserveBook(book, date);
 

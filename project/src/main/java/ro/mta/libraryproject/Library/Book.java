@@ -5,7 +5,7 @@ import ro.mta.libraryproject.Interfaces.IBook;
 import java.util.List;
 
 /**
- * @author Dragos
+ *    
  *
  * Implementation of class ro.mta.libraryproject.Library.Book
  *

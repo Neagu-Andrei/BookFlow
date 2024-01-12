@@ -5,7 +5,7 @@ import javafx.scene.input.MouseEvent;
 import ro.mta.libraryproject.FinalApp.MainApp;
 
 /**
- * @author Alexandru Alexandru
+ *   
  */
 public class AdministratorController {
     public void pressedBackBtn(MouseEvent mouseEvent) {

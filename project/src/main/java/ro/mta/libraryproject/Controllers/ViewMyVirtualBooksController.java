@@ -21,7 +21,7 @@ import java.nio.file.Paths;
 import java.util.ResourceBundle;
 
 /**
- * @author Alexandru Alexandru
+ *   
  */
 public class ViewMyVirtualBooksController implements Initializable {
     public TextArea text;

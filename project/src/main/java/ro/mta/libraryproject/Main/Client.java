@@ -8,9 +8,9 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 /**
- * @author Alexandru Alexandru
- * @author Ouatu Laura
- * @author Anghel
+ *   
+ *  Ouatu Laura
+ *    
  */
 
 public class Client {

@@ -14,7 +14,7 @@ import ro.mta.libraryproject.FinalApp.MainApp;
 import java.io.IOException;
 
 /**
- * @author Alexandru Alexandru
+ *   
  */
 public class RequestViewController {
     @FXML

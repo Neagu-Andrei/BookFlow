@@ -3,7 +3,7 @@ package ro.mta.libraryproject.Interfaces;
 import java.time.LocalDate;
 
 /**
- * @author Anghel
+ *    
  *
  * Interface class for ro.mta.libraryproject.AbstractClasses.Person
  */

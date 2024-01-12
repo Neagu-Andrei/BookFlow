@@ -16,7 +16,7 @@ import java.util.ResourceBundle;
 
 
 /**
- * @author Alexandru Alexandru
+ *   
  */
 public  class ArchivesViewController implements Initializable{
     public void pressedBackBtn(MouseEvent mouseEvent) {

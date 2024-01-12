@@ -4,7 +4,7 @@ import java.sql.ResultSet;
 import java.util.Scanner;
 
 /**
- * @author Ouatu Laura
+ *  Ouatu Laura
  */
 public class MenuHandler {
     /**

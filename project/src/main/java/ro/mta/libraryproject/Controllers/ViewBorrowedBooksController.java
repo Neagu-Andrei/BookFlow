@@ -15,7 +15,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 /**
- * @author Alexandru Alexandru
+ *   
  */
 public class ViewBorrowedBooksController implements Initializable{
     public void pressedBackBtn(MouseEvent mouseEvent) {

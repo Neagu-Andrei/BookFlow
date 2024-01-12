@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 /**
  * Class implementing the user part.
- * @author Alexandru Alexandru
+ *   
  */
 public class User extends Person {
 

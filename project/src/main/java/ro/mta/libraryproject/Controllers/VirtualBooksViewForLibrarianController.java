@@ -18,12 +18,12 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 /**
- * @author Alexandru Alexandru
+ *   
  */
 public class VirtualBooksViewForLibrarianController implements Initializable {
 
     /**
-     * @author Alexandru Alexandru
+     *   
      */
     public class TmpVirtualBook {
         SimpleStringProperty ID;

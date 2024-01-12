@@ -8,8 +8,8 @@ import ro.mta.libraryproject.Main.ManagerDB;
 import java.lang.*;
 
 /**
- * @author Ouatu Laura
- * @author Valentin-Ciprian Popescu
+ *  Ouatu Laura
+ *  Valentin-Ciprian Popescu
  */
 public class Shelf {
     /**
@@ -59,7 +59,7 @@ public class Shelf {
     }
 
     /**
-     * @author Alexandru Alexandru
+     *   
      * @return books from a shelf
      */
     public String viewBooks() {

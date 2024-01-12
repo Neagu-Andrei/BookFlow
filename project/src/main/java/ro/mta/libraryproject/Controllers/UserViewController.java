@@ -4,7 +4,7 @@ import javafx.scene.input.MouseEvent;
 import ro.mta.libraryproject.FinalApp.MainApp;
 
 /**
- * @author Alexandru Alexandru
+ *   
  */
 public class UserViewController {
     public void pressedLogoutBtn(MouseEvent mouseEvent) {

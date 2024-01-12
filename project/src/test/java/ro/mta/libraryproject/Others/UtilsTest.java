@@ -13,7 +13,7 @@ import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;
 
 /**
- * @author Cretu Rodica, Popescu Valentin
+ *   ,  tin
  */
 
 public class UtilsTest extends TestCase {

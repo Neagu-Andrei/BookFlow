@@ -25,13 +25,13 @@ import java.util.Objects;
 import java.util.Random;
 
 /**
- * @author Anghel
+ *    
  */
 class Server {
     /**
      * @param hash
      * @return
-     * @author Alexandru Alexandru
+     *   
      */
     private static String bytesToHex(byte[] hash) {
         StringBuilder hexString = new StringBuilder(2 * hash.length);

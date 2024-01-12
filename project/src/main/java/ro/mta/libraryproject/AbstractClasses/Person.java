@@ -5,7 +5,7 @@ import ro.mta.libraryproject.Interfaces.IPerson;
 import java.time.LocalDate;
 
 /**
- * @author Anghel
+ *    
  *
  *
  *

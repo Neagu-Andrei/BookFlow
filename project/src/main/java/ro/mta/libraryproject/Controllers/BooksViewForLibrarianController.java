@@ -16,7 +16,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ResourceBundle;
 
 /**
- * @author Alexandru Alexandru
+ *   
  */
 public class BooksViewForLibrarianController implements Initializable {
 

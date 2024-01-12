@@ -18,7 +18,7 @@ import java.util.Calendar;
 /**
  * Class implementing the database controller part of the Application
  *
- * @author Valentin-Ciprian Popescu
+ *  Valentin-Ciprian Popescu
  */
 public class ManagerDB {
     private final String jdbcURL = "jdbc:sqlserver://libraryip1.database.windows.net:1433;database=library";
@@ -1559,7 +1559,7 @@ public class ManagerDB {
      * Function that is used for: display user virtual books - for user
      *
      * @return Returns a string containing information needed
-     * @author Alexandru Alexandru
+     *   
      */
     public String viewMyVirtualBooks(int userId) {
         String buffer = "";
@@ -1595,7 +1595,7 @@ public class ManagerDB {
      * Function that is used for: display all virtual books - for librarian
      *
      * @return Returns a string containing information needed
-     * @author Alexandru Alexandru
+     *   
      */
     public String viewVirtualBooks() {
         String buffer = "";
@@ -1629,7 +1629,7 @@ public class ManagerDB {
      * Function that is used for: display all virtual books - for user
      *
      * @return Returns a string containing information needed
-     * @author Alexandru Alexandru
+     *   
      */
     public String viewVirtualBooksForUser() {
         String buffer = "";
@@ -1662,7 +1662,7 @@ public class ManagerDB {
      * Function that is used for: buy virtual book
      *
      * @return Returns true or false
-     * @author Alexandru Alexandru
+     *   
      */
     public boolean buyVirtualBook(String userID, String isbn, String title, String authors, String genre, String pages, String accessKey) {
         String query = "insert into virtualBooksBought (isbn, userID, title, author, genre, numberOfPages, accessKey) values (";
@@ -1687,7 +1687,7 @@ public class ManagerDB {
      * Function that is used for: add virtual book librarian
      *
      * @return Returns true or false
-     * @author Alexandru Alexandru
+     *   
      */
     public boolean addVirtualBook(String isbn, String title, String authors, String genre, String pages, String virtualKey) {
         String query = "insert into virtualBooks (isbn, title, author, genre, numberOfPages, virtualKey) values (";
@@ -1711,7 +1711,7 @@ public class ManagerDB {
      * Function that is used for: edit virtual book librarian
      *
      * @return Returns true or false
-     * @author Alexandru Alexandru
+     *   
      */
     public boolean editVirtualBook(String id, String isbn, String title, String authors, String genre, String pages) {
         String query = "UPDATE virtualBooks " + "SET ";
@@ -1734,7 +1734,7 @@ public class ManagerDB {
      * Function that is used for: delete virtual book librarian
      *
      * @return Returns true or false
-     * @author Alexandru Alexandru
+     *   
      */
     public boolean deleteVirtualBook(String isbn) {
         String query = "DELETE from virtualBooks ";
@@ -1759,7 +1759,7 @@ public class ManagerDB {
      * Function that is used for: verify is selected book can be read using accessKey
      *
      * @return Returns buffer or null
-     * @author Alexandru Alexandru
+     *   
      */
     public String selectViewVirtualBook(String isbn, String accessKey) {
         String query = "SELECT virtualBooks.virtualKey FROM virtualBooks ";
@@ -1794,7 +1794,7 @@ public class ManagerDB {
      * Function that is used for: get virtual key for book
      *
      * @return Returns a string containing information needed
-     * @author Alexandru Alexandru
+     *   
      */
     public String getVirtualKey(String virtualBookId) {
         String buffer = "";
@@ -1935,7 +1935,7 @@ public class ManagerDB {
     }
 
     /**
-     * @author Anghel
+     *    
      * Function to update user information based on a String array
      * @param s
      * @param username
@@ -1959,7 +1959,7 @@ public class ManagerDB {
     }
 
     /**
-     * @author Anghel
+     *    
      * Function to get user information as a tab formatted String
      * @param username
      * @return user information if successful or null

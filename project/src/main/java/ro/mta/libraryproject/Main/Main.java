@@ -11,7 +11,7 @@ import java.util.Random;
 
 /**
  * For testing
- * @author Alexandru Alexandru
+ *   
  */
 public class Main {
     public static void main(String[] args) throws NoSuchAlgorithmException, InvalidKeySpecException {

@@ -9,7 +9,7 @@ import java.time.LocalDate;
 import java.util.*;
 
 /**
- * @author Alexandru Alexandru
+ *   
  */
 public class RegisteredUser extends User {
 

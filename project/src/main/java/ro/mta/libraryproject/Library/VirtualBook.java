@@ -3,7 +3,7 @@ package ro.mta.libraryproject.Library;
 import java.time.LocalDate;
 
 /**
- * @author Dragos
+ *    
  *
  * Implementation of ro.mta.libraryproject.Library.VirtualBook inheritance relation object
  * Every instance stores

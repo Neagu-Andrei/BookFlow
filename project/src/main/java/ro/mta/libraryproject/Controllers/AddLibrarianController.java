@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.time.format.DateTimeFormatter;
 
 /**
- * @author Alexandru Alexandru
+ *   
  */
 public class AddLibrarianController {
     @FXML

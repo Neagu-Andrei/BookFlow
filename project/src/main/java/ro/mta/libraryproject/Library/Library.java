@@ -11,8 +11,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Rodica
- * @author Valentin-Ciprian Popescu
+ *  Rodica
+ *  Valentin-Ciprian Popescu
  */
 public class Library {
     private String name;
@@ -58,7 +58,7 @@ public class Library {
     }
 
     /**
-     * @author Alexandru Alexandru
+     *   
      * @return buffer with what library contains
      */
     public String viewLibraryBooks() {

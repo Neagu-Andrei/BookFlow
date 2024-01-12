@@ -11,8 +11,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Ouatu Laura
- * @author Valentin-Ciprian Popescu
+ *  Ouatu Laura
+ *  Valentin-Ciprian Popescu
  */
 public class BookSection {
     /**
@@ -69,7 +69,7 @@ public class BookSection {
     }
 
     /**
-     * @author Alexandru Alexandru
+     *   
      * @return buffer with books in a book section
      */
     public String viewBookSection() {

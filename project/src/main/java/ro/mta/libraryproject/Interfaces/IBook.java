@@ -3,8 +3,8 @@ package ro.mta.libraryproject.Interfaces;
 import java.util.List;
 
 /**
- * @author Dragos
- * @author laura
+ *    
+ *  laura
  *
  * Interface class for ro.mta.libraryproject.Library.Book
  *

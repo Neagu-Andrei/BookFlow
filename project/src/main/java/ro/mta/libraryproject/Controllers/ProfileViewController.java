@@ -10,7 +10,7 @@ import java.time.LocalDate;
 import java.util.function.UnaryOperator;
 
 /**
- * @author Alexandru Alexandru
+ *   
  */
 public class ProfileViewController {
     @FXML

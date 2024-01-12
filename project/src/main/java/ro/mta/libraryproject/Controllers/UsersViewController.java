@@ -19,7 +19,7 @@ import java.util.ResourceBundle;
 
 
 /**
- * @author Valentin-Ciprian Popescu
+ *  Valentin-Ciprian Popescu
  */
 
 public class UsersViewController implements Initializable {

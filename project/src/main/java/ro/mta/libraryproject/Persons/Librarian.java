@@ -9,7 +9,7 @@ import java.time.LocalDate;
 
 /**
  * Class implementing the librarian part for books and users administration.
- * @author Alexandru Alexandru
+ *   
  */
 public class Librarian extends Person {
     /**

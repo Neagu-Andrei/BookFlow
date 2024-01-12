@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * Class implementing the administrator part for library administration.
- * @author Alexandru Alexandru
+ *   
  */
 public class Administrator extends Person {
     /**

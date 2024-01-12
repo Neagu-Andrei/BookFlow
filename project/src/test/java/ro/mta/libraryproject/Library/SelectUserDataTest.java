@@ -9,7 +9,7 @@ import ro.mta.libraryproject.Persons.RegisteredUser;
 import java.time.LocalDate;
 
 /**
- * @author Merlus Mihai
+ *  Merlus Mihai
  */
 
 public class SelectUserDataTest {

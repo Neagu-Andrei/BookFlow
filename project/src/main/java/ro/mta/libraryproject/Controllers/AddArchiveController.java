@@ -13,7 +13,7 @@ package ro.mta.libraryproject.Controllers;
         import java.time.format.DateTimeFormatter;
 
 /**
- * @author Alexandru Alexandru
+ *   
  */
 public class AddArchiveController {
     public void pressedBackBtn(MouseEvent mouseEvent) {

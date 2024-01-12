@@ -10,7 +10,7 @@ import java.time.LocalDate;
 
 
 /**
- * @author Merlus Mihai
+ *  Merlus Mihai
  */
 public class LibrarianViewPersonDetailsTest extends TestCase {
     @Test
