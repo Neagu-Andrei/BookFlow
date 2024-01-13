@@ -2,17 +2,17 @@ package ro.mta.libraryproject.AbstractClasses;
 
 import java.time.LocalDate;
 
-/**
+  /* @author Andi*
  * Class implementing the user part.
  *   
  */
 public class User extends Person {
 
-    /**
+      /* @author Andi*
      * Member decription
      */
 
-    /**
+      /* @author Andi*
      * ro.mta.libraryproject.AbstractClasses.User class constructor
      */
     public User(String role, String firstname, String lastname, LocalDate birthday,

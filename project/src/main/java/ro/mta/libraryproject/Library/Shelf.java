@@ -7,19 +7,19 @@ import org.javatuples.Pair;
 import ro.mta.libraryproject.Main.ManagerDB;
 import java.lang.*;
 
-/**
+  /* @author Andi*
  *  Ouatu Laura
  *  Valentin-Ciprian Popescu
  */
 public class Shelf {
-    /**
+      /* @author Andi*
      * Members description
      */
     int maxNumberOfBooksPerSection;
     List<Book> books = new ArrayList<Book>();
     int id;
 
-    /**
+      /* @author Andi*
      *ro.mta.libraryproject.Library.Shelf class constructor
      */
     public Shelf(int _id) {
@@ -58,7 +58,7 @@ public class Shelf {
         return this.id;
     }
 
-    /**
+      /* @author Andi*
      *   
      * @return books from a shelf
      */

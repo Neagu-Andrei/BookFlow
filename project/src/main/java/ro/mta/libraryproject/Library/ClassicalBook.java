@@ -2,7 +2,7 @@ package ro.mta.libraryproject.Library;
 
 import java.time.LocalDate;
 
-/**
+  /* @author Andi*
  *    
  *
  * Implementation of ro.mta.libraryproject.Library.ClassicalBook inheritance relation object

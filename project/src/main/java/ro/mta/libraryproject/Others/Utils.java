@@ -10,12 +10,12 @@ import java.security.spec.InvalidKeySpecException;
 import java.security.spec.KeySpec;
 
 
-/**
+  /* @author Andi*
  *  Ioana   
  */
 public class Utils {
 
-    /**
+      /* @author Andi*
      * @param size
      * @return
      * @throws NoSuchAlgorithmException
@@ -31,7 +31,7 @@ public class Utils {
         return b;
     }
 
-    /**
+      /* @author Andi*
      * @param input
      * @return
      * @throws NoSuchAlgorithmException
@@ -51,7 +51,7 @@ public class Utils {
         }
     }
 
-    /**
+      /* @author Andi*
      * @param hex
      * @return
      * @throws NoSuchAlgorithmException
@@ -67,7 +67,7 @@ public class Utils {
         return bytes;
     }
 
-    /**
+      /* @author Andi*
      * @param password
      * @param salt
      * @return
@@ -83,7 +83,7 @@ public class Utils {
         return Utils.toHex(salt)+":"+Utils.toHex(hash);
     }
 
-    /**
+      /* @author Andi*
      * @param originalPassword
      * @param storedPassword
      * @return

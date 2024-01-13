@@ -4,7 +4,7 @@ import ro.mta.libraryproject.Interfaces.IPerson;
 
 import java.time.LocalDate;
 
-/**
+  /* @author Andi*
  *    
  *
  *
@@ -96,7 +96,7 @@ public class Person implements IPerson {
     }
 
     public String getFullDetails() {
-        /*
+          /* @author Andi
         This method should be overridden in every child class if there are additional information to be returned
          */
         return firstName+";"+lastName+";"+birthDate+";"+address+";"+phoneNumber+";"+email+";";

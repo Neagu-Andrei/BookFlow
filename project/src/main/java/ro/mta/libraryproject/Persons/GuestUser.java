@@ -10,18 +10,18 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
+  /* @author Andi*
  *   
  */
 public class GuestUser extends User {
 
-    /**
+      /* @author Andi*
      * Member decription
      */
     int timeForUsingLibrary;
     ArrayList<Book> availableBooks;
 
-    /**
+      /* @author Andi*
      * ro.mta.libraryproject.AbstractClasses.User class constructor
      */
     public GuestUser(String role, String firstname, String lastname, LocalDate birthday,

@@ -17,12 +17,12 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-/**
+  /* @author Andi*
  *   
  */
 public class VirtualBooksViewForLibrarianController implements Initializable {
 
-    /**
+      /* @author Andi*
      *   
      */
     public class TmpVirtualBook {
@@ -136,7 +136,7 @@ public class VirtualBooksViewForLibrarianController implements Initializable {
     @FXML
     TableColumn<VirtualBooksViewForLibrarianController.TmpVirtualBook, String> col_ID, col_ISBN, col_title, col_authors, col_genre, col_pages, col_key;
 
-    /**
+      /* @author Andi*
      * @param url
      * @param rb
      */
@@ -172,7 +172,7 @@ public class VirtualBooksViewForLibrarianController implements Initializable {
         }
     }
 
-    /**
+      /* @author Andi*
      * @param mouseEvent
      */
     public void pressedDeleteBtn(MouseEvent mouseEvent) {
@@ -216,7 +216,7 @@ public class VirtualBooksViewForLibrarianController implements Initializable {
         }
     }
 
-    /**
+      /* @author Andi*
      * @param mouseEvent
      */
     public void pressedAddBtn(MouseEvent mouseEvent) {
@@ -263,7 +263,7 @@ public class VirtualBooksViewForLibrarianController implements Initializable {
         }
     }
 
-    /**
+      /* @author Andi*
      * @param mouseEvent
      */
     public void setOnMouseClicked(MouseEvent mouseEvent) {
@@ -275,7 +275,7 @@ public class VirtualBooksViewForLibrarianController implements Initializable {
         newNumberOfPages.setText(table.getSelectionModel().getSelectedItem().getPages());
     }
 
-    /**
+      /* @author Andi*
      * @param mouseEvent
      */
     public void pressedEditBtn(MouseEvent mouseEvent) {
@@ -324,7 +324,7 @@ public class VirtualBooksViewForLibrarianController implements Initializable {
         }
     }
 
-    /**
+      /* @author Andi*
      * @param mouseEvent
      */
     public void pressedBackBtn(MouseEvent mouseEvent) {

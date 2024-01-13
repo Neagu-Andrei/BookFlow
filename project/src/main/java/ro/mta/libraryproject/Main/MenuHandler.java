@@ -3,11 +3,11 @@ package ro.mta.libraryproject.Main;
 import java.sql.ResultSet;
 import java.util.Scanner;
 
-/**
+  /* @author Andi*
  *  Ouatu Laura
  */
 public class MenuHandler {
-    /**
+      /* @author Andi*
      * Members description
      */
     public boolean is_running;
@@ -18,7 +18,7 @@ public class MenuHandler {
         menu_items = new String[]{"Login", "Sign up", "Exit"};
     }
 
-    /**
+      /* @author Andi*
      * run show the menu
      */
     public void run() {
@@ -60,7 +60,7 @@ public class MenuHandler {
     public void menu_login_input(String username, String pass) throws Exception {
         //took creditentials from database and ckecked login
 
-       /** ro.mta.libraryproject.Main.ManagerDB managerDB = new ro.mta.libraryproject.Main.ManagerDB();
+         /* @author Andi* ro.mta.libraryproject.Main.ManagerDB managerDB = new ro.mta.libraryproject.Main.ManagerDB();
         ResultSet resultSet = managerDB.executeSelect(
                 "SELECT username, person_password " +
                         "FROM person" +

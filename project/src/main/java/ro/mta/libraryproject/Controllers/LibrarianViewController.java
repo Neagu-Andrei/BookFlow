@@ -3,7 +3,7 @@ package ro.mta.libraryproject.Controllers;
 import javafx.scene.input.MouseEvent;
 import ro.mta.libraryproject.FinalApp.MainApp;
 
-/**
+  /* @author Andi*
  *   
  */
 public class LibrarianViewController {

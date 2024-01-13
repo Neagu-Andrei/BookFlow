@@ -18,7 +18,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 
-/**
+  /* @author Andi*
  *  Valentin-Ciprian Popescu
  */
 

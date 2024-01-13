@@ -15,7 +15,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 
-/**
+  /* @author Andi*
  * Class implementing the database controller part of the Application
  *
  *  Valentin-Ciprian Popescu
@@ -27,7 +27,7 @@ public class ManagerDB {
     private Connection connection;
     private Statement statement;
 
-    /**
+      /* @author Andi*
      * Default constructor for class ro.mta.libraryproject.Main.ManagerDB
      * Uses the default string connection
      */
@@ -41,7 +41,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Constructor for class ro.mta.libraryproject.Main.ManagerDB
      *
      * @param jdbcURL  The location of the database
@@ -58,7 +58,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Constructor for class ro.mta.libraryproject.Main.ManagerDB
      *
      * @param username The user you will use for log in
@@ -74,14 +74,14 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * @return Returns the active user that works with the database
      */
     public String getUsername() {
         return username;
     }
 
-    /**
+      /* @author Andi*
      * This method is used to switch the user of the database in case every
      * person has different permissions
      *
@@ -98,7 +98,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used for queries in the database
      *
      * @param sql The select statement we want to use
@@ -116,7 +116,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used for queries in the database
      * The result of the query will be displayed in the terminal
      *
@@ -142,7 +142,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * @return Returns a pair of ResultSet and ResultSetMetaData
      * ResultSet contains the actual data stored in the table
      * ResultSetMetaData contains data like number of columns or columns names
@@ -243,7 +243,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used to add a librarian in the database
      *
      * @param librarian Instance that contains the librarian's data
@@ -283,7 +283,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used to add a registered user in the database
      *
      * @param registeredUser Instance that contains the registeredUser's data
@@ -323,7 +323,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * @param newArchive
      * @return
      */
@@ -351,7 +351,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * @param title
      * @param author
      * @return
@@ -389,7 +389,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * @param isbn
      * @param title1
      * @param author1
@@ -439,7 +439,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used to edit user data
      *
      * @param editedUser Instance that contains the registeredUser's new data
@@ -545,7 +545,7 @@ public class ManagerDB {
         return true;
     }
 
-    /**
+      /* @author Andi*
      * Function that is used to delete a book
      *
      * @param title  The title of the book
@@ -585,7 +585,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * @param book
      * @return Returns true if the query was succesfully executed, false if not
      */
@@ -619,7 +619,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * @param title
      * @param author
      * @return Returns true if the query was succesfully executed, false if not
@@ -651,7 +651,7 @@ public class ManagerDB {
 
     }
 
-    /**
+      /* @author Andi*
      * Function that return data about a book
      *
      * @param ISBN
@@ -685,7 +685,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * @param clientName
      * @return Returns true if the query was succesfully executed, false if not
      */
@@ -715,7 +715,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * @param bookID
      * @param userID
      * @return Returns true if the query was succesfully executed, false if not
@@ -769,7 +769,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that return date of an user
      *
      * @param ID of the user
@@ -817,7 +817,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that return borrow books
      *
      * @param idUser of the user
@@ -942,7 +942,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used display data of the users - for admin
      *
      * @return Returns a string containing the data of the users
@@ -979,7 +979,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used display data of the users - for librarian
      *
      * @return Returns a string containing the data of the registered users
@@ -1085,7 +1085,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used display borrowed books - for librarian
      *
      * @return Returns a string containing details about borrowed books
@@ -1117,7 +1117,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used to make a reserve book request
      *
      * @param userID is the ID of the user
@@ -1140,7 +1140,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used display unapproved requests - for librarian
      *
      * @param option is the object for which we want to handle the request
@@ -1181,7 +1181,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used to make a return book request
      *
      * @param userID is the ID of the user
@@ -1204,7 +1204,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used to retrun the type of request
      *
      * @param option is the object for which we want to handle the request
@@ -1237,7 +1237,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used to retrun the type of request
      * @return Returns a borrow, reserve, delete if option is "Book" or add, delete if option is "Archive"
 
@@ -1265,7 +1265,7 @@ public class ManagerDB {
     }
     }*/
 
-    /**
+      /* @author Andi*
      * Function that is used to update the status of a request to "approved"
      *
      * @param ID     is the ID of the request
@@ -1311,7 +1311,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used to return archiveID from table archiveRequests based on the request ID
      *
      * @param ID is the ID of the request
@@ -1334,7 +1334,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used to return archiveID from table archiveRequests based on the request ID
      *
      * @param ID is the ID of the archive to be deleted
@@ -1353,7 +1353,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used to return bookID from table bookRequests based on the request ID
      *
      * @param ID is the ID of the request
@@ -1376,7 +1376,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used update the number of bookes (for reserve, return and borrow request)
      *
      * @param ID    is the ID of the bookID
@@ -1397,7 +1397,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used to return bookID from table bookRequests based on the request ID
      *
      * @param ID is the ID of the request
@@ -1420,7 +1420,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used to update the return date of a book
      *
      * @param userID is the ID of the ID of the user
@@ -1444,7 +1444,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used to handle a borrow request
      *
      * @param userID is the ID of the ID of the user
@@ -1555,7 +1555,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used for: display user virtual books - for user
      *
      * @return Returns a string containing information needed
@@ -1591,7 +1591,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used for: display all virtual books - for librarian
      *
      * @return Returns a string containing information needed
@@ -1625,7 +1625,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used for: display all virtual books - for user
      *
      * @return Returns a string containing information needed
@@ -1658,7 +1658,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used for: buy virtual book
      *
      * @return Returns true or false
@@ -1683,7 +1683,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used for: add virtual book librarian
      *
      * @return Returns true or false
@@ -1707,7 +1707,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used for: edit virtual book librarian
      *
      * @return Returns true or false
@@ -1730,7 +1730,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used for: delete virtual book librarian
      *
      * @return Returns true or false
@@ -1755,7 +1755,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used for: verify is selected book can be read using accessKey
      *
      * @return Returns buffer or null
@@ -1790,7 +1790,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      * Function that is used for: get virtual key for book
      *
      * @return Returns a string containing information needed
@@ -1934,7 +1934,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      *    
      * Function to update user information based on a String array
      * @param s
@@ -1958,7 +1958,7 @@ public class ManagerDB {
         }
     }
 
-    /**
+      /* @author Andi*
      *    
      * Function to get user information as a tab formatted String
      * @param username

@@ -24,11 +24,11 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Random;
 
-/**
+  /* @author Andi*
  *    
  */
 class Server {
-    /**
+      /* @author Andi*
      * @param hash
      * @return
      *   

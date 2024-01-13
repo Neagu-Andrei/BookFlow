@@ -4,7 +4,7 @@ import javafx.event.ActionEvent;
 import javafx.scene.input.MouseEvent;
 import ro.mta.libraryproject.FinalApp.MainApp;
 
-/**
+  /* @author Andi*
  *   
  */
 public class AdministratorController {
