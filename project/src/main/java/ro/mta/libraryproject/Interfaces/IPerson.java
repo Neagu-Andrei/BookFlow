@@ -2,7 +2,7 @@ package ro.mta.libraryproject.Interfaces;
 
 import java.time.LocalDate;
 
-/**
+  /* @author Andi*
  *    
  *
  * Interface class for ro.mta.libraryproject.AbstractClasses.Person

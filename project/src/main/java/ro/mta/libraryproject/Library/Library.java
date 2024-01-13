@@ -10,7 +10,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
+  /* @author Andi*
  *  Rodica
  *  Valentin-Ciprian Popescu
  */
@@ -57,7 +57,7 @@ public class Library {
         System.out.print("Add archive!\n");
     }
 
-    /**
+      /* @author Andi*
      *   
      * @return buffer with what library contains
      */

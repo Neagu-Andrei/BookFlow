@@ -7,7 +7,7 @@ import java.net.Socket;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-/**
+  /* @author Andi*
  *   
  *  Ouatu Laura
  *    
@@ -28,7 +28,7 @@ public class Client {
 
     public static void main(String[] args)
             throws Exception {
-        /**
+          /* @author Andi*
          * Member decription
          * client socket s
          * DataOutputStream to send data to the server

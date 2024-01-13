@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-/**
+  /* @author Andi*
  *  Valentin-Ciprian Popescu
  */
 public class BooksViewForGuestController implements Initializable {

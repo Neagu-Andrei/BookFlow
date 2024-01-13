@@ -8,18 +8,18 @@ import java.sql.Date;
 import java.time.LocalDate;
 import java.util.*;
 
-/**
+  /* @author Andi*
  *   
  */
 public class RegisteredUser extends User {
 
-    /**
+      /* @author Andi*
      * Member decription
      */
     //LocalDate registerDate;
     Map<Book, LocalDate> currentBorrowedBooks;
 
-    /**
+      /* @author Andi*
      * ro.mta.libraryproject.AbstractClasses.User class constructor
      */
     public RegisteredUser(String firstname, String lastname, LocalDate birthday,

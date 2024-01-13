@@ -5,17 +5,17 @@ import ro.mta.libraryproject.AbstractClasses.Person;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
+  /* @author Andi*
  * Class implementing the administrator part for library administration.
  *   
  */
 public class Administrator extends Person {
-    /**
+      /* @author Andi*
      * Member decription
      */
     List<Librarian> registeredLibrarians;
 
-    /**
+      /* @author Andi*
      * ro.mta.libraryproject.Persons.Administrator class constructor
      */
     public Administrator() {

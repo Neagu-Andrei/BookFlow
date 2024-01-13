@@ -10,19 +10,19 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
+  /* @author Andi*
  *  Ouatu Laura
  *  Valentin-Ciprian Popescu
  */
 public class BookSection {
-    /**
+      /* @author Andi*
      * Members description
      */
     int maxNumberOfShelfPerSection;
     List<Shelf> shelfs = new ArrayList<Shelf>();
     int id;
 
-    /**
+      /* @author Andi*
      * ro.mta.libraryproject.Library.BookSection class constructor
      */
     public BookSection(int _id) {
@@ -46,7 +46,7 @@ public class BookSection {
         }
     }
 
-    /**
+      /* @author Andi*
      *viewBook desplay book details
      */
     void viewBook()
@@ -55,7 +55,7 @@ public class BookSection {
         System.out.print("View book in library");
     }
 
-    /**
+      /* @author Andi*
      *addBookToSection adding a book in library
      */
     void addBookToSection()
@@ -68,7 +68,7 @@ public class BookSection {
         return this.id;
     }
 
-    /**
+      /* @author Andi*
      *   
      * @return buffer with books in a book section
      */

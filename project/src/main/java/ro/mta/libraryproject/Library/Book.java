@@ -4,7 +4,7 @@ import ro.mta.libraryproject.Interfaces.IBook;
 
 import java.util.List;
 
-/**
+  /* @author Andi*
  *    
  *
  * Implementation of class ro.mta.libraryproject.Library.Book
@@ -37,7 +37,7 @@ public class Book implements IBook {
          int shelfId,
          int bookId)
     {
-        /*
+          /* @author Andi
          *
          * TO DO: add Google ro.mta.libraryproject.Library.Book API integration in order to retrieve official book information
          * and also additional details that could help categorize and also facilitate the search

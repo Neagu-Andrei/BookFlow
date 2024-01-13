@@ -7,17 +7,17 @@ import ro.mta.libraryproject.Main.ManagerDB;
 
 import java.time.LocalDate;
 
-/**
+  /* @author Andi*
  * Class implementing the librarian part for books and users administration.
  *   
  */
 public class Librarian extends Person {
-    /**
+      /* @author Andi*
      * Member decription
      */
     //List<ro.mta.libraryproject.Persons.RegisteredUser> registeredUsers;
 
-    /**
+      /* @author Andi*
      * ro.mta.libraryproject.Persons.Librarian class constructor
      */
     public Librarian(String firstname, String lastname, LocalDate birthday,
